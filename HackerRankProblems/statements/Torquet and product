@@ -1,0 +1,28 @@
+Torque's teacher wants to punish him. So she gave Torque a positive long integer and told him that it is the product of any three sides of a rectangle. Now, Torque needs to find and print all possible values of the side in increasing order. Can you help Torque to accomplish this task ?
+
+Input Format
+
+A single line containing a positive long integer (the product of any three sides of a rectangle).
+
+Constraints
+
+Output Format
+
+A single line containing all possible values in increasing order. The values should be space-separated.
+
+Sample Input 0
+
+36
+
+Sample Output 0
+
+1 4 9 36
+
+Explanation 0
+
+Following are the possibilities :
+6*6*1=36
+3*3*4=36
+2*2*9=36
+1*1*36=36
+

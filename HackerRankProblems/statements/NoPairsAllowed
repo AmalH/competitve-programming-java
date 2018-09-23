@@ -1,0 +1,11 @@
+
+You have a boutique tha specializes in words that don't have adjacent matching characters.
+Bobby, a competitor, has decided to get out of the word business altogether and you have bought his inventory.
+
+You idea is to modify his inventory of words so they are suitable for sale in your store.
+To do this, you find all adjacent pairs of matching characters and replace one of the characters with a different one.
+
+Determine the minimum number of characters that must be replaced to make a salable word.
+
+For example, you purchased words = [add,book,break]. You will create an array with your results from tests.
+Change d in add, change o in book and no change is necessary in break. The return array result = [1,1,0].
