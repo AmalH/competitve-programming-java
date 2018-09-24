@@ -1,0 +1,43 @@
+There are shops in the city numbered from to , and each one wants to use a Visa terminal. The -th shop calculated that it can pay monthly fee of at most dollars for using a terminal. However, since market is very dynamic, some shops can either increase or decrease maximum fee they can pay. Visa of course wants to maximize its profit, so they want you to write a software system to handle queries, each of one of the following two types:
+
+    := changes maximum fee that the -th shop can pay to
+    := returns the maximum number of shops which can pay a fee of
+
+Input Format
+
+In the first line there are two space-separated integers and denoting the number of shops and the number of queries to handle. In the second line there are space separated integers , where denotes the maximum fee the -th shop can pay initially.
+
+After that lines follow. The -th of them describes the -th query and its either or
+
+Constraints
+
+Output Format
+
+If there are count queries in the input then output exactly lines. In the i-th of them output the answer to the i-th count query.
+
+Sample Input 0
+
+3 3
+1 2 3
+count 2
+change 1 1
+count 2
+
+Sample Output 0
+
+2
+1
+
+Sample Input 1
+
+3 3
+1 2 3
+change 2 1
+change 1 1
+count 2
+
+Sample Output 1
+
+0
+
+
