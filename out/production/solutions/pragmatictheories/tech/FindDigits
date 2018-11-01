@@ -1,0 +1,20 @@
+package pragmatictheories.tech;
+
+import java.util.List;
+
+public class FindDigits {
+
+    // Complete the findDigits function below.
+    public static int findDigits(int n) {
+        int nbOfDivisors=0;
+        for(int i=0;i<(String.valueOf(n)).length();i++){
+            if (Integer.parseInt(Character.toString((String.valueOf(n)).charAt(i)))!=0)
+                if(n % Integer.parseInt(Character.toString((String.valueOf(n)).charAt(i)))==0)
+                    nbOfDivisors++;
+        }
+        return nbOfDivisors;
+    }
+
+}
+
+

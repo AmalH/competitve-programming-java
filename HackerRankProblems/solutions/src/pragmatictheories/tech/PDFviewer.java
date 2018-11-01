@@ -1,8 +1,10 @@
 package pragmatictheories.tech;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.HashMap;
 
-public class PDFViewer {
+public class PDFviewer {
 
     // Complete the designerPdfViewer function below.H
     static int designerPdfViewer(int[] h, String word) {

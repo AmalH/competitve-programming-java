@@ -1,0 +1,8 @@
+Sort a list of dates in ascending order. Dates are described as below.
+Each date is in the form of dd mmm yyyy where :
+
+dd in [0-31]
+mmm in [Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
+yyyy is four digits
+
+eg: '01 Mar 2017'   
